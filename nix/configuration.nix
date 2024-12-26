@@ -25,7 +25,7 @@ in {
     fonts.packages = with pkgs; [
       noto-fonts
       nerd-fonts.jetbrains-mono
-      nerd-fonts.nerd-fonts-symbols-only
+      nerd-fonts.symbols-only
     ];
     fonts.fontconfig.defaultFonts = {
       monospace = [ "JetBrainsMono NF" ];
